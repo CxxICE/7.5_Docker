@@ -1,0 +1,17 @@
+7.5.1
+cd /f/CxICE/__Projects/7.\ Multithreaded\ and\ asynchronous_Homeworks/7.5_Docker/7.5.1_Hello
+docker build -f Dockerfile -t ubuntu_hello:16.04 .
+docker run -it --rm ubuntu_hello:16.04
+
+7.5.2
+cd /f/CxICE/__Projects/7.\ Multithreaded\ and\ asynchronous_Homeworks/7.5_Docker/7.5.2_Clients_queue_gcc
+docker build -f Dockerfile -t queue:gcc .
+docker run -it --rm queue:gcc
+
+7.5.3
+cd /f/CxICE/__Projects/7.\ Multithreaded\ and\ asynchronous_Homeworks/7.5_Docker/7.5.3_Clients_queue_clang
+docker build -f Dockerfile -t queue:clang .
+docker run -it --rm queue:clang
+
+
+
